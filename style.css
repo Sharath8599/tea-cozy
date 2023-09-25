@@ -1,0 +1,119 @@
+body{
+    font-family: Helvetica, serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: rgba(58, 42, 28, 0.9);
+
+}
+
+a{
+    color: wheat;
+}
+
+.header{
+    height: 99px;
+    display: flex;
+     /* Align the logo and menu items at each end */
+    align-items: center; /* Center the items vertically within the header */
+    width: 100%;
+    border-bottom: 3px solid wheat ;
+
+}
+
+.header img{
+    height: 70px;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: auto; 
+}
+
+.menu li {
+    margin-right: 20px; /* Add spacing between menu items */
+    text-decoration: underline;
+  }
+  
+
+.part-one{
+    background-image:url(img-mission-background.jpg);
+    display: flex;
+    height: 500px;
+    width: 1200px;
+    justify-content: center;
+    padding-top: 300px ;
+    margin: auto;
+    background-repeat: no-repeat;
+    border: 2px solid wheat;
+    border-radius: 4px;
+    box-shadow: 7px 4px 4px wheat;
+    flex-shrink: 1;
+}
+
+
+.content{
+    background-color: rgba(58, 42, 28, 0.8);
+    text-align: center;
+    max-height: 170px;
+    width: 100%;
+    align-content: center;
+}
+
+
+
+.part-two{
+    
+    text-align: center;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-content: center;
+    height: auto;
+}
+
+#cards img{
+    height: 200px;
+    width: 300px;
+    padding: 30px 30px;
+}
+
+.images{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+}
+
+
+.part-three{
+    background-image: url(img-locations-background.jpg);
+    text-align: center;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    height: auto;
+    
+}
+
+.loc{
+    background-color: rgba(58, 42, 28, 0.9);
+    width: 300px;
+    height: auto;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    margin-left:100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+.part-four{
+    text-align: center;
+}
